@@ -1,5 +1,5 @@
 {
-    "id": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+    "id": "b1ba42596969ea4cc0cdd151ae4bd82e",
     "name": "\tBloomington Indiana Open311 GeoReport API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "72e0c8331a88abeada3f0af5c1370b39",
+            "id": "d521731c39b77186d2da87b14b67c281",
             "name": "Requests",
             "url": "httpsbloomington.in.gov\/crm\/open311\/v2\/\/requests.{response_format}",
             "description": "Query the current status of multiple requests.",
@@ -72,11 +72,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+            "collectionId": "b1ba42596969ea4cc0cdd151ae4bd82e",
             "rawModeData": ""
         },
         {
-            "id": "57795c3589eb463094dacd2440272a9e",
+            "id": "e38bd37089aeead0c3334416a4e83ae3",
             "name": "Create Service Request",
             "url": "httpsbloomington.in.gov\/crm\/open311\/v2\/\/requests.{response_format}",
             "description": "Submit a new request for with specific details of a single service. Must provide a location via lat\/long or address_string or address_id",
@@ -145,11 +145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+            "collectionId": "b1ba42596969ea4cc0cdd151ae4bd82e",
             "rawModeData": ""
         },
         {
-            "id": "1d0f120f40d3eaaa6ddf57e37d066296",
+            "id": "dbfce35733354604bc186eed733ea28e",
             "name": "Current Status",
             "url": "httpsbloomington.in.gov\/crm\/open311\/v2\/\/request\/{service_request_id}.{response_format}",
             "description": "Query the current status of an individual request",
@@ -176,11 +176,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+            "collectionId": "b1ba42596969ea4cc0cdd151ae4bd82e",
             "rawModeData": ""
         },
         {
-            "id": "5b3262e4ade9ccfd3d2aa1030afe3974",
+            "id": "569d16660631d319dcbb5d48f4213aa3",
             "name": "Service Types",
             "url": "httpsbloomington.in.gov\/crm\/open311\/v2\/\/services.{response_format}",
             "description": "List acceptable service request types and their associated service codes. These request types can be unique to the city\/jurisdiction.",
@@ -207,11 +207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+            "collectionId": "b1ba42596969ea4cc0cdd151ae4bd82e",
             "rawModeData": ""
         },
         {
-            "id": "cf0fcebe3f529583a647bc75c688982c",
+            "id": "5882224f94f5782b84d4b6bb45b9a743",
             "name": "Definition Of A Service Type",
             "url": "httpsbloomington.in.gov\/crm\/open311\/v2\/\/services\/{service_code}.{response_format}",
             "description": "Define attributes associated with a service code. These attributes can be unique to the city\/jurisdiction.",
@@ -245,11 +245,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+            "collectionId": "b1ba42596969ea4cc0cdd151ae4bd82e",
             "rawModeData": ""
         },
         {
-            "id": "e8cd20369f5b27bdfc7ceb1260d72603",
+            "id": "d6785350931f667c2f43b5c2e5ff9288",
             "name": "Id Of Service_request Via Token",
             "url": "httpsbloomington.in.gov\/crm\/open311\/v2\/\/tokens\/{token_id}.{response_format}",
             "description": "Get the service_request_id from a temporary token. This is unnecessary if the response from creating a service request does not contain a token.",
@@ -276,7 +276,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdfe7ed831c8bfe877cfa3e9ca2ebb80",
+            "collectionId": "b1ba42596969ea4cc0cdd151ae4bd82e",
             "rawModeData": ""
         }
     ]
